@@ -14,4 +14,16 @@
 * Models
   * 1D Heisenberg model
   * 1D J1-J2 Heisenberg model
+    * See, for example, numerical results in
+      [DOI:10.1016/0375-9601(92)90823-5](https://doi.org/10.1016/0375-9601(92)90823-5)
+      [DOI:10.1103/PhysRevB.54.R9612](https://doi.org/10.1103/PhysRevB.54.R9612)
+    * See also analytical results in
+      [DOI:10.1063/1.1664978](https://doi.org/10.1063/1.1664978)
+      [DOI:10.1063/1.1664979](https://doi.org/10.1063/1.1664979)
+      [DOI:10.1103/PhysRevB.25.4925](https://doi.org/10.1103/PhysRevB.25.4925)
   * 2D J1-J2 Heisenberg model on a square lattice
+    * See, for example, numerical results in
+      [DOI:10.1103/PhysRevLett.63.2148](https://doi.org/10.1103/PhysRevLett.63.2148)
+      [DOI:10.1051/jp1:1996236](https://doi.org/10.1051/jp1:1996236)
+    * See also [DOI:10.1016/j.cpc.2018.08.014](https://doi.org/10.1016/j.cpc.2018.08.014)
+      (spin correlations at J2=0)
