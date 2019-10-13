@@ -202,7 +202,7 @@ def main():
     N = args.N
     Sz = args.Sz
     J1 = args.J1
-    J2 = args.J2  
+    J2 = args.J2
     Nup, Nhilbert, ihfbit, irght, ilft, iup = init_parameters(N,Sz)
     binirght = np.binary_repr(irght,width=N)
     binilft = np.binary_repr(ilft,width=N)
