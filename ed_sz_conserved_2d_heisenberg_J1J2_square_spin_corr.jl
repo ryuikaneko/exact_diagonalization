@@ -128,12 +128,11 @@ function make_hamiltonian(Jxx,Jzz,list_isite1,list_isite2,N,Nint,Nhilbert,irght,
         for i in 0:Nhilbert-1
             ii = list_1[i+1]
             ibit = ii & is12
+            loc[Nint*Nhilbert+i+1] = i+1
             if (ibit==0 || ibit==is12)
                 elemnt[Nint*Nhilbert+i+1] += diag
-                loc[Nint*Nhilbert+i+1] = i+1
             else
                 elemnt[Nint*Nhilbert+i+1] -= diag
-                loc[Nint*Nhilbert+i+1] = i+1
                 iexchg = xor(ii,is12)
                 newcfg = get_ja_plus_jb(iexchg,irght,ilft,ihfbit,list_ja,list_jb)
                 elemnt[k*Nhilbert+i+1] = wght
