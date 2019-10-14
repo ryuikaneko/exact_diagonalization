@@ -194,10 +194,14 @@ function calc_xcorr(Nhilbert,Ncorr,list_corr_isite1,list_corr_isite2,psi,irght,i
 end
 
 function make_lattice(N,J1,J2)
-    Jxx = []
-    Jzz = []
-    list_isite1 = []
-    list_isite2 = []
+#    Jxx = []
+#    Jzz = []
+#    list_isite1 = []
+#    list_isite2 = []
+    Jxx = Float64[]
+    Jzz = Float64[]
+    list_isite1 = Int[]
+    list_isite2 = Int[]
     Nint = 0
     for i in 0:N-1
         site1 = i
