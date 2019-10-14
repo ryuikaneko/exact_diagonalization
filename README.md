@@ -11,6 +11,9 @@
   * Use two-dimensional search
     * See [DOI:10.1103/PhysRevB.42.6561](https://doi.org/10.1103/PhysRevB.42.6561)
     * See also [manual of titpack2](http://hdl.handle.net/2433/94584)
+  * Without generating matrix elements to save memory (test version, not so efficient...)
+    * Use scipy.sparse.linalg.LinearOperator for Python
+    * Use [LinearMap](https://github.com/Jutho/LinearMaps.jl) for Julia
 * Models
   * 1D Heisenberg model
   * 1D J1-J2 Heisenberg model
