@@ -1,7 +1,7 @@
-versioninfo()
+#versioninfo()
 
-import Pkg; Pkg.add("Arpack")
-import Pkg; Pkg.add("ArgParse")
+#import Pkg; Pkg.add("Arpack")
+#import Pkg; Pkg.add("ArgParse")
 
 
 using LinearAlgebra
