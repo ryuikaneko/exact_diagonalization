@@ -318,7 +318,8 @@ def main():
     expk = calc_exp(Lx,Ly,momkx,momky)
 #    list_state, list_R, list_F2, Nrep = make_basis(Lx,Ly,Ns,nup,Nbinom,momkx,momky)
     list_state, list_R, list_F2, Nrep = make_basis(Lx,Ly,Ns,nup,Nbinom,momkx,momky,expk)
-    mask = abs(np.array(list_F2)) > 1e-16 # exclude |F|^2==0
+#    mask = abs(np.array(list_F2)) > 1e-16 # exclude |F|^2==0
+    mask = np.array(np.abs(list_F2)) > 1e-12 # exclude |F|^2==0
 #    print(mask)
     print("# num of of excluded elements from |F|^2:",Nrep-np.sum(mask))
     Nrep = np.sum(mask)
