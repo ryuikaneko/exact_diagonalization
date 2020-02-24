@@ -13,10 +13,16 @@
 
   * Use the snoob function for finding the next higher number after a given number that has the same number of 1-bits (down spins)
 
-    * See [Hacker's Delight](https://www.hackersdelight.org/hdcodetxt/snoob.c.txt)
+    * See
+      [Hacker's Delight](https://www.hackersdelight.org/hdcodetxt/snoob.c.txt)
+      [Hacker's Delight (web archive)](http://web.archive.org/web/20190109000030/https://www.hackersdelight.org/hdcodetxt/snoob.c.txt)
 
     * See also [HPhi tips](http://www.pasums.issp.u-tokyo.ac.jp/wp-content/themes/HPhi/media/develop/tips.pdf)
       [HPhi tips (mirror)](http://issp-center-dev.github.io/HPhi/develop/tips.pdf)
+
+    * For related bitwise operations, see
+      [Count bits](http://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetParallel)
+      [Anothr count bits](https://stackoverflow.com/questions/9829578/fast-way-of-counting-non-zero-bits-in-positive-integer)
 
   * Use two-dimensional search
 
@@ -31,6 +37,10 @@
     * Use scipy.sparse.linalg.LinearOperator for Python
 
     * Use [LinearMap](https://github.com/Jutho/LinearMaps.jl) for Julia
+
+      * Tutorials in Japanese
+        https://qiita.com/cometscome_phys/items/9f9cbd4f2ffa75e09f5e
+        https://qiita.com/cometscome_phys/items/643f56d365c095884b89
 
 ## Models
 
@@ -59,10 +69,10 @@
 * Papers 
 
   * [HPhi DOI:10.1016/j.cpc.2017.04.006](https://doi.org/10.1016/j.cpc.2017.04.006)
-    [arXiv](https://arxiv.org/abs/1703.03637)
+    [(arXiv)](https://arxiv.org/abs/1703.03637)
 
   * [Sz and momentum conservation, Lanczos DOI:10.1063/1.3518900](https://doi.org/10.1063/1.3518900)
-    [arXiv](https://arxiv.org/abs/1101.3281)
+    [(arXiv)](https://arxiv.org/abs/1101.3281)
 
   * [2D search of states DOI:10.1103/PhysRevB.42.6561](https://doi.org/10.1103/PhysRevB.42.6561)
 
@@ -74,6 +84,9 @@
     http://physics.bu.edu/~sandvik/vietri/index.html
     http://physics.bu.edu/~sandvik/vietri/vietri.pdf
     http://physics.bu.edu/~sandvik/vietri/dia.pdf
+
+    * Use a bisectional search instead of making a 2D search list
+    * Implementation may be easier with momentum conservation
 
   * Frank Pollmann
     http://tccm.pks.mpg.de/?page_id=871
@@ -87,6 +100,8 @@
 
   * Alexander Wietek
     https://github.com/alexwie/ed_basics
+
+    * State search by a python built-in function index() for list (np.where for numpy array)
 
   * Ryan Levy
     https://ryanlevy.github.io/physics/Heisenberg1D-ED/
