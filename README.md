@@ -103,5 +103,8 @@
 
     * State search by a python built-in function index() for list (np.where for numpy array)
 
+  * Glen Evenbly
+    https://www.tensors.net/exact-diagonalization
+
   * Ryan Levy
     https://ryanlevy.github.io/physics/Heisenberg1D-ED/
