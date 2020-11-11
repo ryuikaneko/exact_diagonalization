@@ -108,3 +108,6 @@
 
   * Ryan Levy
     https://ryanlevy.github.io/physics/Heisenberg1D-ED/
+
+  * Junya Otsuki (in Japanese)
+    http://www.physics.okayama-u.ac.jp/~otsuki/lecture/CompPhys2/eigen/spin.html
